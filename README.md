@@ -2,8 +2,7 @@
 
 A Flutter app adaptation of Charles Peprah's Login UI Challenge (Aurora).
 
-## Getting Started
+-[Aurora Design](https://www.linkedin.com/posts/charles-kojo-peprah_uidesign-loginpage-loginscreen-activity-6801049026532790273-FCkg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6801049025962377217" height="716" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
