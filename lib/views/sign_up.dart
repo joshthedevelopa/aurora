@@ -24,9 +24,16 @@ class _SignUpState extends State<SignUp> {
                     Expanded(
                       child: LoginBackgroundHeader(title: "Sign Up"),
                     ),
-                    CustomInput(label: "Email"),
-                    CustomInput(label: "Password"),
-                    CustomInput(label: "Reset Password"),
+                    Expanded(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          CustomInput(label: "Email"),
+                          CustomInput(label: "Password"),
+                          CustomInput(label: "Reset Password"),
+                        ],
+                      ),
+                    ),
                     Padding(
                       padding: EdgeInsets.symmetric(vertical: 30),
                       child: Row(
@@ -41,7 +48,7 @@ class _SignUpState extends State<SignUp> {
                             height: 100,
                             title: "Login",
                             icon: Icons.arrow_forward_ios,
-                            action: () => Navigator.pop(context)
+                            action: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LogIn()))
                           )
                         ],
                       ),
