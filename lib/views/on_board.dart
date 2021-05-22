@@ -15,7 +15,7 @@ class _OnBoardState extends State<OnBoard> {
           children: [
             Expanded(
               child: Image.asset(
-                "assets/images/onboard_2.jpg", 
+                "assets/images/onboard_2.png", 
                 width: double.infinity, 
                 height: double.infinity
               ),
